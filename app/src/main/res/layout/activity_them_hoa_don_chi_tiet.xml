@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme1"
+    tools:context=".ui.HoaDon.HoaDonChiTiet.ThemHoaDonChiTiet">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Chi tiết hóa đơn"></androidx.appcompat.widget.Toolbar>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        >
+
+        <EditText
+            android:id="@+id/edtMaHoaDon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_mahoadon" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Spinner
+        android:id="@+id/Spiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        >
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/edtsoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="So luong" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+       android:layout_margin="17dp"
+        android:id="@+id/btnSave"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/colorPrimary"
+        android:text="@string/button_save"
+        android:textColor="@color/white"/>
+
+
+
+
+
+
+</LinearLayout>

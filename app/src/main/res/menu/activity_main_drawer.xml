@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_sach"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+
+            android:id="@+id/nav_taikhoan"
+            android:icon="@drawable/account"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_sach"
+            android:icon="@drawable/book"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_loaisach"
+            android:icon="@drawable/categorybook"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_hoadon"
+            android:icon="@drawable/hoadon"
+            android:title="@string/menu_tools" />
+        <item
+            android:id="@+id/nav_top"
+            android:icon="@drawable/top"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@drawable/thongke"
+            android:title="@string/menu_send" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/nav_thoat"
+            android:title="@string/menu_exit" />
+
+    </group>
+
+
+
+</menu>

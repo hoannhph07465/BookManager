@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duanmau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconbook"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.HoaDon.HoaDonChiTiet.HoaDonChiTiet"></activity>
+        <activity
+            android:name=".ui.HoaDon.HoaDonChiTiet.ThemHoaDonChiTiet"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.Sach.FixSach"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.LoaiSach.FixLoaiSach"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.HoaDon.AddHoaDon"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.LoaiSach.AddLoaiSach"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.Sach.AddSach"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".ui.TaiKhoan.FixAccount" />
+        <activity
+            android:name=".ui.TaiKhoan.AddMatKhau"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.TaiKhoan.AddDiaChi"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.TaiKhoan.AddPhone"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.TaiKhoan.AddHoTen"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.TaiKhoan.AddTaiKHoan"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".LoginAcitivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

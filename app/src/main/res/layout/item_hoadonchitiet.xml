@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_margin="6dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="18dp"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/bn"
+            android:text="Ma hoa don: "
+            android:layout_width="120dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+
+            android:layout_toRightOf="@+id/bn"
+            android:textSize="17sp"
+            android:id="@+id/tvMaHoaDon"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:textSize="17sp"
+            android:layout_below="@+id/bn"
+            android:id="@+id/bnn"
+            android:text="Ma sach: "
+            android:layout_width="120dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_below="@+id/tvMaHoaDon"
+            android:layout_toRightOf="@+id/bnn"
+            android:textSize="17sp"
+            android:id="@+id/tvMaSach"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:textSize="17sp"
+            android:layout_below="@+id/bnn"
+            android:id="@+id/bnnn"
+            android:text="So luong: "
+            android:layout_width="120dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_below="@id/tvMaSach"
+            android:layout_toRightOf="@+id/bnnn"
+            android:textSize="17sp"
+            android:id="@+id/tvSoluong"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:textSize="17sp"
+            android:layout_below="@+id/bnnn"
+            android:id="@+id/bnnnn"
+            android:text="Thanh tien: "
+            android:layout_width="120dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_below="@id/tvSoluong"
+            android:layout_toRightOf="@+id/bnnn"
+            android:textSize="17sp"
+            android:id="@+id/tvTien"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

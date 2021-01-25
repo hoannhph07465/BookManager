@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme1"
+    tools:context=".ui.LoaiSach.FixLoaiSach">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        ></androidx.appcompat.widget.Toolbar>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/edtMaLoaiSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_maloaisach" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/edtTenLoaiSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_tenLoaiSach" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:counterEnabled="true"
+        app:counterMaxLength="20"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/edtViTri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_viTri" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:counterEnabled="true"
+        app:counterMaxLength="200"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/edtMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_moTa"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_margin="18dp"
+        android:id="@+id/btnExit"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/colorPrimary"
+        android:text="@string/button_exit"
+        android:textColor="@color/white"/>
+</LinearLayout>

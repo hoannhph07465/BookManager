@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme1"
+    tools:context=".ui.Sach.AddSach">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/add_sach"></androidx.appcompat.widget.Toolbar>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInTheLoai"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="15">
+
+        <EditText
+            android:id="@+id/edtTheLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_theloai" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Spinner
+            android:id="@+id/Spiner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInTenSach"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="20">
+
+        <EditText
+            android:id="@+id/edtTenSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_tensach" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInTacGia"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="15">
+
+        <EditText
+            android:id="@+id/edtTacGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_tacgia" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInNhaXuatBan"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="35">
+
+        <EditText
+            android:id="@+id/edtNhaXuatBan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_nhaxb" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/edtGiaBia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fix_giabia"
+            android:inputType="number"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+</LinearLayout>

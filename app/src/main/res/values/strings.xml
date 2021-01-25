@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Dự Án Mẫu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Book Store</string>
+    <string name="nav_header_subtitle">Thư viện trong tầm tay</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Tài khoản</string>
+    <string name="menu_gallery">Sách</string>
+    <string name="menu_slideshow">Loại sách</string>
+    <string name="menu_tools">Hóa đơn</string>
+    <string name="menu_share">TOP sách bán chạy</string>
+    <string name="menu_send">Thống kê</string>
+    <string name="menu_exit">Đăng xuất</string>
+
+    <string name="appname">Book Store</string>
+    <string name="hint_account">Username(admin)</string>
+    <string name="hint_password">Password(admin)</string>
+    <string name="button_login">LOG IN</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_taikhoan">Nhập tên tài khoản</string>
+    <string name="themtaikhoan">Vui long nhap ten tai khoan </string>
+    <string name="add_ten">Nhập họ tên</string>
+    <string name="themhoten">Vui long nhap ho ten</string>
+    <string name="add_phone">Nhập số điện thoại</string>
+    <string name="themsodienthoai">Vui long nhap so dien thoai</string>
+    <string name="add_diachi">Nhập địa chi</string>
+    <string name="themdiachi">Vui long nhap dia chi</string>
+    <string name="add_matkhau">Nhập mật khẩu</string>
+    <string name="themmatkhau">Vui long nhap mat khau</string>
+    <string name="thongke_homnay">Thong ke hom nay : </string>
+    <string name="thongke_tuan">Tuan</string>
+    <string name="thongke_thang">Thang :</string>
+    <string name="thongke_nam">Nam :</string>
+    <string name="top_thang">Nhap thang</string>
+    <string name="tim">Search</string>
+    <string name="fix_taikhoarn">Ten tai khoan</string>
+    <string name="fix_name">Name</string>
+    <string name="fix_phone">Phone</string>
+    <string name="fix_password">Password</string>
+    <string name="fix_address">Address</string>
+    <string name="button_save">Save</string>
+    <string name="button_exit">Exit</string>
+    <string name="add_sach">Thêm sách</string>
+    <string name="fix_theloai">The loai</string>
+    <string name="fix_tensach">Ten sach</string>
+    <string name="fix_tacgia">Tac gia</string>
+    <string name="fix_nhaxb">Nha xuat ban</string>
+    <string name="fix_giabia">Gia bia</string>
+    <string name="fix_maloaisach">Ma loai sach</string>
+    <string name="fix_tenLoaiSach">Ten loai sach</string>
+    <string name="fix_viTri">Vi tri</string>
+    <string name="fix_moTa">Mo ta</string>
+    <string name="add_loaisach">Thêm loại sách</string>
+    <string name="add_hoadon">Thêm hóa đơn</string>
+    <string name="fix_mahoadon">Ma hoa don</string>
+    <string name="fix_ngay">Ngay</string>
+    <string name="fix_masach">Ma sach</string>
+    <string name="fix_soluong">So luong</string>
+    <string name="fix_sach">Sửa sách</string>
+    <string name="fix_hoadon">Sửa hóa đon</string>
+    <string name="user">admin</string>
+
+</resources>
